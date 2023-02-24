@@ -1,0 +1,77 @@
+.history__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.history-about {
+  display: flex;
+  justify-content: center;
+}
+
+.history__content {
+  margin-right: 120px;
+
+  & h1 {
+    font-size: 48px;
+    font-weight: 400;
+  }
+
+  & p {
+    width: 444px;
+    font-size: 16px;
+    color: #656363;
+    margin-bottom: 60px;
+  }
+}
+
+.text {
+  color: $color-primary;
+  font-weight: 400;
+}
+
+.history-about-box {
+  margin-right: 30px;
+  & h4 {
+    font-size: 35px;
+    font-weight: 400;
+    color: $color-secondary;
+    margin: 0;
+  }
+
+  & h6 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+  }
+}
+
+// restaurant - section
+
+.restaurant {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url(../../picture/bg-overflow.png);
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+.restaurant__inner {
+  padding: 30px 0;
+
+  & h1 {
+    font-size: 45px;
+    color: $color-brend;
+    font-weight: 400;
+    width: 601px;
+  }
+
+  & h5 {
+    font-weight: 700;
+    font-size: 24px;
+    color: $color-white;
+  }
+}

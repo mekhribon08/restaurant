@@ -1,0 +1,22 @@
+.foods {
+  text-align: center;
+
+  & h1 {
+    font-size: 48px;
+    font-weight: 400;
+    padding-bottom: 30px;
+  }
+}
+
+.foods__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 25px 10px;
+
+  & h4 {
+    font-weight: 400;
+    font-size: 20px;
+  }
+}
