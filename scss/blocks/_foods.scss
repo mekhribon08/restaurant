@@ -1,5 +1,6 @@
 .foods {
   text-align: center;
+  margin-bottom: 150px;
 
   & h1 {
     font-size: 48px;
@@ -15,8 +16,18 @@
   gap: 30px;
   margin: 25px 10px;
 
+  @media (max-width: $mobile) {
+    flex-direction: column;
+  }
+
   & h4 {
     font-weight: 400;
     font-size: 20px;
+  }
+}
+
+.foods__inner-img {
+  @media (max-width: $mobile) {
+    width: 100%;
   }
 }

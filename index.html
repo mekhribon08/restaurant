@@ -11,6 +11,14 @@
       href="https://fonts.googleapis.com/css2?family=Tinos&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <link rel="icon" href="./picture/logo.png" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
@@ -57,6 +65,9 @@
             </a>
           </li>
         </ul>
+
+        <input id="menu" class="visually-hidden" type="checkbox" />
+        <label class="main-header__hamburger" for="menu"></label>
       </nav>
 
       <div class="header__hero">
@@ -136,7 +147,7 @@
       <section class="foods">
         <h1>Наши <b class="text">Блюда</b></h1>
         <div class="foods__inner">
-          <img src="./picture/pizza.png" alt="pizza" />
+          <img class="foods__inner-img" src="./picture/pizza.png" alt="pizza" />
           <div class="foods__inner-content">
             <div class="foods__inner">
               <img src="./picture/hamburger.png" alt="hamburger" />
@@ -153,6 +164,175 @@
           </div>
         </div>
       </section>
+
+      <section class="menu">
+        <div class="menu__inner">
+          <h1>Наше меню</h1>
+
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="swiper-slide-img">
+                  <img
+                    width="180px"
+                    src="./picture/hambuger1.png"
+                    alt="hamburger"
+                  />
+                  <span>420</span>
+                </div>
+                <h3>Гамбургер макси</h3>
+                <p>Максимально толстый слой мяса</p>
+                <button class="btn btn-brend btn-primary">ЗАКАЗАТЬ</button>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide-img">
+                  <img
+                    width="180px"
+                    src="./picture/hambuger1.png"
+                    alt="hamburger"
+                  />
+                  <span>420</span>
+                </div>
+                <h3>Гамбургер макси</h3>
+                <p>Максимально толстый слой мяса</p>
+                <button class="btn btn-brend btn-primary">ЗАКАЗАТЬ</button>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide-img">
+                  <img
+                    width="180px"
+                    src="./picture/hambuger1.png"
+                    alt="hamburger"
+                  />
+                  <span>420</span>
+                </div>
+                <h3>Гамбургер макси</h3>
+                <p>Максимально толстый слой мяса</p>
+                <button class="btn btn-brend btn-primary">ЗАКАЗАТЬ</button>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide-img">
+                  <img
+                    width="180px"
+                    src="./picture/hambuger1.png"
+                    alt="hamburger"
+                  />
+                  <span>420</span>
+                </div>
+                <h3>Гамбургер макси</h3>
+                <p>Максимально толстый слой мяса</p>
+                <button class="btn btn-brend btn-primary">ЗАКАЗАТЬ</button>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide-img">
+                  <img
+                    width="180px"
+                    src="./picture/hambuger1.png"
+                    alt="hamburger"
+                  />
+                  <span>420</span>
+                </div>
+                <h3>Гамбургер макси</h3>
+                <p>Максимально толстый слой мяса</p>
+                <button class="btn btn-brend btn-primary">ЗАКАЗАТЬ</button>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide-img">
+                  <img
+                    width="180px"
+                    src="./picture/hambuger1.png"
+                    alt="hamburger"
+                  />
+                  <span>420</span>
+                </div>
+                <h3>Гамбургер макси</h3>
+                <p>Максимально толстый слой мяса</p>
+                <button class="btn btn-brend btn-primary">ЗАКАЗАТЬ</button>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide-img">
+                  <img
+                    width="180px"
+                    src="./picture/hambuger1.png"
+                    alt="hamburger"
+                  />
+                  <span>420</span>
+                </div>
+                <h3>Гамбургер макси</h3>
+                <p>Максимально толстый слой мяса</p>
+                <button class="btn btn-brend btn-primary">ЗАКАЗАТЬ</button>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide-img">
+                  <img
+                    width="180px"
+                    src="./picture/hambuger1.png"
+                    alt="hamburger"
+                  />
+                  <span>420</span>
+                </div>
+                <h3>Гамбургер макси</h3>
+                <p>Максимально толстый слой мяса</p>
+                <button class="btn btn-brend btn-primary">ЗАКАЗАТЬ</button>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide-img">
+                  <img
+                    width="180px"
+                    src="./picture/hambuger1.png"
+                    alt="hamburger"
+                  />
+                  <span>420</span>
+                </div>
+                <h3>Гамбургер макси</h3>
+                <p>Максимально толстый слой мяса</p>
+                <button class="btn btn-brend btn-primary">ЗАКАЗАТЬ</button>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="guest">
+        <div class="guest__inner">
+          <p>
+            Я надолго запомню мой День рождения, проведённый в этом ресторане!
+            Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде
+            фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и
+            родственникам также за рубежом, путешествующих в Санкт-Петербург!!!
+          </p>
+          <img src="./picture/man.png" alt="man" />
+          <h5>Посетитель</h5>
+          <h6>Николай</h6>
+        </div>
+      </section>
+
+      <section class="images">
+        <h1>Галерея <b class="text">Блюд</b></h1>
+        <div class="images__inner">
+          <img src="./picture/blyud1.png" alt="1" />
+          <img src="./picture/blyud2.png" alt="2" />
+          <img src="./picture/blyud3.png" alt="3" />
+          <img src="./picture/blyud2.png" alt="2" />
+          <img src="./picture/blyud3.png" alt="3" />
+          <img src="./picture/blyud1.png" alt="1" />
+        </div>
+
+        <div class="images__content">
+          <h1>Наши <b class="text">Повара</b></h1>
+          <div class="images__content-img">
+            <img src="./picture/cook1.png" alt="cook1" />
+            <img src="./picture/cook2.png" alt="cook2" />
+            <img src="./picture/cook3.png" alt="cook3" />
+          </div>
+        </div>
+        <div class="last-img"></div>
+      </section>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
